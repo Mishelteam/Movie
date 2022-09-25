@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.myBtn{
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.section {
+  max-width: 100%;
+  height: auto;
+}
+
+.car_title {
+  font-weight: 600;
+}
+
+.carusel1_image {
+  height: 220px !important;
+  /* width: 150px !important; */
+  border-radius: 10px !important;
+}
+
+.carusel1 {
+  width: 150px;
+  height: 350px;
+  box-sizing: border-box;
+}
+.my__caard{
+  background-image: url('https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-36-user-female-grey-d9222f16ec16a33ed5e2c9bbdca07a4c48db14008bbebbabced8f8ed1fa2ad59.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100% ;
+}
+.imgages{
+  width: 200px;
+  height: 300px;
+}
+.cardd{
+  border: 1px solid rgba(77, 76, 76, 0.712);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.slider-container {
+  --swiffy-slider-item-gap-totalwidth: 0 !important;
+  --swiffy-slider-item-width: calc((100% - var(--swiffy-slider-item-reveal) - var(--swiffy-slider-item-gap-totalwidth)) / var(--swiffy-slider-item-count));
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: grid;
+  align-items: center;
+  height: 100%;
+  grid: auto/auto-flow -webkit-max-content;
+  grid: auto/auto-flow max-content;
+      grid-auto-rows: auto;
+      grid-auto-columns: max-content;
+      grid-auto-flow: column;
+  grid-auto-rows: 100%;
+  grid-auto-columns: var(--swiffy-slider-item-width);
+  grid-auto-flow: column;
+  grid-gap: var(--swiffy-slider-item-gap);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  scrollbar-color: rgba(0,0,0,.4) rgba(0,0,0,var(--swiffy-slider-track-opacity));
+  background-clip: padding-box;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

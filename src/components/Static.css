@@ -1,0 +1,27 @@
+.myS{
+    padding: 4px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-image: linear-gradient( rgb(219, 146, 199), rgb(199, 108, 172)) !important;
+}
+.myS1{
+    padding: 4px;
+    margin-right: 5px;
+    border-radius: 50% ;
+    background-image: linear-gradient( red, rgb(163, 39, 8)) !important;
+}
+
+.progress{
+    height: 7px !important;
+}
+.bir{
+    color: #000 !important;
+}
+.tegP{
+    font-weight: bolder;
+}
+.tegP:hover{
+    color: #30D9AD !important;
+    transition: .2s;
+    cursor: pointer;
+}

@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: #032541 !important;
+  padding: 2rem 1rem;
+}
+
+.nav-item a {
+  margin: 0 0.5rem;
+  color:  white;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.nav-item ul {
+  position: absolute;
+  color: black !important;
+  font-weight: 600;
+  background-color: white !important;
+  padding: 0.5rem;
+  width: 150px;
+  border-radius: 10px;
+  text-align: start;
+  opacity: 0;
+  display: none;
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+
+.nav-item:hover ul{ 
+  opacity: 1;
+  display: block;
+}
+
+
+.nav-item ul li {
+  cursor: pointer;
+  font-weight: 600;
+  background-color: white !important;
+  padding: 0.2rem;
+  list-style: none;
+  font-weight: 400;
+}
+
+select {
+  background-color: transparent !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.search_icon {
+  color: #01B4E4;
+  font-weight: bold;
+}
+
+.header{
+  width: 100vw;
+  height: 50vh;
+  background-color: #032541cc;
+}
+
+.opac{
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://a-static.besthdwallpaper.com/captain-marvel-join-the-avengers-team-wallpaper-800x480-25773_12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header_opac{
+  width: 100%;
+  height: 100%  ;
+}
+
+label {
+  height: 47px;
+  border-radius: 20px !important;
+  padding: 0 !important;
+}
+
+.search {
+  width: 92%;
+  border-radius: 20px !important;
+  height: auto;
+  border: none;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.btn_search {
+  width: 100.1px;
+  height: 49px !important;
+  border-radius: 20px !important;
+  margin-top: -2px !important;
+}
+
+.buttons{
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttons1{
+  border-radius: 20px;
+  cursor: pointer;
+}
+.buttons3 , .buttons4{
+  cursor: pointer;
+}
+
+.luboy{
+  border-radius: 20px;
+  background-color: #032541;
+  color: #42BE9F;
+  padding: 5px 20px;
+  margin-left: -15px;
+}
+.luboy1{
+  border-radius: 20px;
+  background-color: #032541;
+  color: #42BE9F;
+  padding: 5px 20px;
+  margin-right: -15px;
+}
+
+.carusel1{
+  position: relative;
+  cursor: pointer;
+}
+
+.positsiya {
+  content: '';
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #032541;
+  color: white;
+}
+
+.more {
+  content: '';
+  position: absolute;
+  bottom: 470%;
+  left: 225%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.527);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 10px 0;
+  color: black;
+  cursor: pointer;
+}
+
+.more_card {
+  content: '';
+  position: absolute;
+  bottom: 330%;
+  left: 100%;
+  width: 110px;
+  height: 70px;
+  background-color: rgb(255, 254, 254);
+  color: rgb(102, 101, 101);
+  z-index: 9999;
+  border-radius: 10px;
+  display: none;
+}
+.more:hover + .more_card  {
+  display: block;
+}
+.more_card:hover{
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  background-color: #032541;
+  color: white;
+}
+
+more:hover .more_card {
+  display: block;
+}
+
+.sup {
+  font-size: 8px;
+  top: -1em !important;
+  right: 4px !important;
+}
+
+.line {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 3px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+
+.links {
+  text-decoration: none;
+  color: black !;
+}
+
+.my_card {
+  height: 340px;
+}
+
+.cardd {
+  display: flex;
+  height: 10rem;
+  text-align: center;
+}
